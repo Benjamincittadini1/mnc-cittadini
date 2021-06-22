@@ -1,0 +1,98 @@
+@import"styles";
+
+$mobile-width: 320px;
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+
+@mixin for-phone-only {
+    @media (max-width: 599px) { @content; }
+  }
+  @mixin for-tablet-portrait-up {
+    @media (min-width: 600px) { @content; }
+  }
+  @mixin for-tablet-landscape-up {
+    @media (min-width: 900px) { @content; }
+  }
+  @mixin for-desktop-up {
+    @media (min-width: 1200px) { @content; }
+  }
+
+
+#tit-proy2 {
+    @include for-phone-only {
+        display: none;
+    }
+}
+#tit-proy {
+    @include for-phone-only {
+        display: none;
+    }
+}
+.container #proy4:hover #carrousel4 {
+    @include for-phone-only {
+    transform:scale(1)
+    }
+}  
+.container #proy3:hover #carrousel3 {
+    @include for-phone-only {
+    transform:scale(1)
+    }
+}  
+.container #proy2:hover #carrousel2 {
+    @include for-phone-only {
+    transform:scale(1)
+    }
+}  
+.container #proy1:hover #carrousel1 {
+    @include for-phone-only {
+    transform:scale(1)
+    }
+}  
+.contact__redes {
+    @include for-phone-only {
+        display: none;
+        }
+}
+.contact__wapp {
+    @include for-phone-only {
+        display: none;
+        }
+}
+.direccion iframe{
+    @include for-phone-only{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+}
+.servicios__plano{
+    @include for-phone-only{
+        display: none;
+    }
+}
+.servicios__plano{
+    @include for-phone-only{
+        display: none;
+    }
+}
+.texto-index{
+    @include for-phone-only{
+        display: none;
+    }
+}
+
+@each $redes_sociales in instagram, facebook, linkedin {
+    .#{$redes_sociales}-icon {
+            background-image: 
+            url(../MEDIA/#{$redes_sociales}-logo);
+    }
+    .#{$redes_sociales}-estilos {
+        width: 45px;
+        height: 45px;
+        z-index: 4;
+        list-style-type: none;
+    }
+}

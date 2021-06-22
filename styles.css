@@ -1,0 +1,210 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(https://www.publicdomainpictures.net/pictures/310000/velka/black-wall-1565177040wcN.jpg);
+    background-size: contain;
+    
+}
+/*Menu y titulos*/
+.top-content {
+    width: 100%;
+    padding: 0;
+}
+.top-content .carousel-control-prev {
+    border-bottom: 0;
+}
+.top-content .carousel-control-next {
+    border-bottom: 0;
+}
+.top-content .carousel-caption {
+    padding-bottom: 60px;
+}
+
+.texto-index{
+    height: 350px;
+    background-color:rgb(55, 54, 61);
+}
+.texto-index h2{
+    color: whitesmoke;
+    padding: 20px;
+    font-weight: 120;
+    text-decoration: underline;
+}
+.texto-index p{
+    color: whitesmoke;
+    padding: 0 20px 20px 40px;
+    font-size: large;
+    font-weight: 80;
+    word-spacing: 2px;
+    line-height: 150%;
+}
+
+/*Menu y titulos*/
+
+
+/*Servicios*/
+.titulo-servicios{
+    color: white;
+}
+.servicios{
+    margin-left: 10%;
+    width: 80%;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+    "plano1 servicios1"
+    "plano servicios"
+}
+
+.servicios__plano{
+    width: 90%;
+    height: 100%;
+    grid-area: plano1;
+}
+.servicios__principal{
+    color: white;
+    grid-area: servicios1 ;
+}
+.servicios__lista{
+    width: 80%;
+    margin: 15px 15px 50px 0;
+    justify-self: end;
+    grid-area: plano;
+}
+.servicios__otros{
+    grid-area: servicios;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.servicios .servicios__plano{
+    border:110%
+}
+
+/*Servicios*/
+
+.parrafo{
+    color: white;
+}
+
+/*Contacto*/
+.contact__redes{
+    z-index: 4;
+}
+.direccion{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.direccion__map{
+    height: 550px;
+    width: 100vw;
+}
+
+.direccion__datos{
+    color: whitesmoke;
+    align-items: center;
+}
+.contact__wapp{
+    z-index: 5;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+
+}
+.contact__redes{
+    list-style-type: none;
+    position: absolute;
+    right: 10px;
+    top: 15vh;
+}
+.contact__redes2{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding: 0;
+    margin-top: 60px;
+}
+/*Contacto*/
+
+/*Galeria*/
+.titulogaleria{
+text-align: center;
+margin-top: 3%;
+color:lightslategrey;
+}
+.titulogaleria:hover h1{
+    color: whitesmoke;
+    transition: 1s;
+}
+.carousel-inner2{
+    padding: 5%;
+}
+/*Galeria*/
+
+/*Proyectos*/
+.titulo-proy{
+    color: whitesmoke;
+    text-align: center;
+}
+#carrousel1{
+    transition: .3s;
+}
+.container #proy1:hover #carrousel1{
+    transform: scale(1.5);
+    z-index: 3;
+}
+#carrousel2{
+    transition: .3s;
+}
+.container #proy2:hover #carrousel2{
+    transform: scale(1.5);
+    z-index: 3;
+}
+#carrousel3{
+    transition: .3s;
+}
+.container #proy3:hover #carrousel3{
+    transform: scale(1.5);
+    z-index: 3;
+}
+#carrousel4{
+    transition: .3s;
+}
+.container #proy4:hover #carrousel4{
+    transform: scale(1.5);
+    z-index: 3;
+}
+.carrousel-contenedor{
+    height: 100%;
+}
+#tit-proy div{
+    color: white;
+    font-size: large;
+}
+#tit-proy2 div{
+    color: white;
+    font-size: large;
+}
+
+
+/*Proyectos*/
+
+/*404*/
+.error-main{
+    padding-top: 30vh;
+    text-align: center;
+}
+.error{
+    color: whitesmoke;
+    font-weight: 100;
+}
