@@ -38,7 +38,7 @@ body {
   color: whitesmoke;
   padding: 0 20px 20px 40px;
   font-size: large;
-  font-weight: 80;
+  font-weight: 100;
   word-spacing: 2px;
   line-height: 150%; }
 
@@ -83,57 +83,17 @@ body {
   color: white; }
 
 /*Contacto*/
-.contact__redes {
-  z-index: 4; }
-
-.direccion {
-  overflow: hidden;
-  padding-bottom: 56.25%;
-  position: relative;
-  height: 0; }
-
 .direccion__map {
   height: 550px;
   width: 100vw; }
 
 .direccion__datos {
   color: whitesmoke;
-  align-items: center; }
-
-.contact__wapp {
-  z-index: 5;
-  position: fixed;
-  bottom: 10px;
-  right: 10px; }
-
-.contact__redes {
-  list-style-type: none;
-  position: absolute;
-  right: 10px;
-  top: 15vh; }
-
-.contact__redes2 {
-  display: flex;
-  list-style-type: none;
-  justify-content: center;
-  padding: 0;
-  margin-top: 60px; }
+  align-items: center;
+  text-align: center;
+  text-justify: center; }
 
 /*Contacto*/
-/*Galeria*/
-.titulogaleria {
-  text-align: center;
-  margin-top: 3%;
-  color: lightslategrey; }
-
-.titulogaleria:hover h1 {
-  color: whitesmoke;
-  transition: 1s; }
-
-.carousel-inner2 {
-  padding: 5%; }
-
-/*Galeria*/
 /*Proyectos*/
 .titulo-proy {
   color: whitesmoke;
@@ -166,6 +126,9 @@ body {
 .container #proy4:hover #carrousel4 {
   transform: scale(1.5);
   z-index: 3; }
+
+#proy4 {
+  margin-bottom: 50px; }
 
 .carrousel-contenedor {
   height: 100%; }
@@ -287,10 +250,6 @@ body {
     transform: scale(1); } }
 
 @media (max-width: 599px) {
-  .contact__redes {
-    display: none; } }
-
-@media (max-width: 599px) {
   .contact__wapp {
     display: none; } }
 
@@ -307,36 +266,9 @@ body {
     display: none; } }
 
 @media (max-width: 599px) {
-  .servicios__plano {
-    display: none; } }
-
-@media (max-width: 599px) {
   .texto-index {
     display: none; } }
 
-.instagram-icon {
-  background-image: url(../MEDIA/instagram-logo); }
-
-.instagram-estilos {
-  width: 45px;
-  height: 45px;
-  z-index: 4;
-  list-style-type: none; }
-
-.facebook-icon {
-  background-image: url(../MEDIA/facebook-logo); }
-
-.facebook-estilos {
-  width: 45px;
-  height: 45px;
-  z-index: 4;
-  list-style-type: none; }
-
-.linkedin-icon {
-  background-image: url(../MEDIA/linkedin-logo); }
-
-.linkedin-estilos {
-  width: 45px;
-  height: 45px;
-  z-index: 4;
-  list-style-type: none; }
+@media (max-width: 599px) {
+  .servicios__lista {
+    display: none; } }

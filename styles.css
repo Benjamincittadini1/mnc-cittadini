@@ -41,7 +41,7 @@ body {
     color: whitesmoke;
     padding: 0 20px 20px 40px;
     font-size: large;
-    font-weight: 80;
+    font-weight: 100;
     word-spacing: 2px;
     line-height: 150%;
 }
@@ -96,60 +96,19 @@ body {
 }
 
 /*Contacto*/
-.contact__redes{
-    z-index: 4;
-}
-.direccion{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
-}
 .direccion__map{
     height: 550px;
     width: 100vw;
 }
 
 .direccion__datos{
-    color: whitesmoke;
+    color: rgb(245, 245, 245);  
     align-items: center;
-}
-.contact__wapp{
-    z-index: 5;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-
-}
-.contact__redes{
-    list-style-type: none;
-    position: absolute;
-    right: 10px;
-    top: 15vh;
-}
-.contact__redes2{
-    display: flex;
-    list-style-type: none;
-    justify-content: center;
-    padding: 0;
-    margin-top: 60px;
+    text-align: center;
+    text-justify: center;
 }
 /*Contacto*/
 
-/*Galeria*/
-.titulogaleria{
-text-align: center;
-margin-top: 3%;
-color:lightslategrey;
-}
-.titulogaleria:hover h1{
-    color: whitesmoke;
-    transition: 1s;
-}
-.carousel-inner2{
-    padding: 5%;
-}
-/*Galeria*/
 
 /*Proyectos*/
 .titulo-proy{
@@ -184,6 +143,9 @@ color:lightslategrey;
     transform: scale(1.5);
     z-index: 3;
 }
+#proy4{
+    margin-bottom: 50px;
+}
 .carrousel-contenedor{
     height: 100%;
 }
@@ -210,6 +172,7 @@ color:lightslategrey;
 }
 /*footer*/
 .footer-dark {
+
     padding:50px 0;
     color:#f0f9ff;
     background-color:#282d32;

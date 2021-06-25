@@ -49,11 +49,6 @@ $desktop-width: 1024px;
     transform:scale(1)
     }
 }  
-.contact__redes {
-    @include for-phone-only {
-        display: none;
-        }
-}
 .contact__wapp {
     @include for-phone-only {
         display: none;
@@ -73,26 +68,14 @@ $desktop-width: 1024px;
         display: none;
     }
 }
-.servicios__plano{
-    @include for-phone-only{
-        display: none;
-    }
-}
 .texto-index{
     @include for-phone-only{
         display: none;
     }
 }
-
-@each $redes_sociales in instagram, facebook, linkedin {
-    .#{$redes_sociales}-icon {
-            background-image: 
-            url(../MEDIA/#{$redes_sociales}-logo);
-    }
-    .#{$redes_sociales}-estilos {
-        width: 45px;
-        height: 45px;
-        z-index: 4;
-        list-style-type: none;
+.servicios__lista{
+    @include for-phone-only{
+        display: none;
     }
 }
+
