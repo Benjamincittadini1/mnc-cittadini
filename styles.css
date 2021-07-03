@@ -48,53 +48,6 @@ body {
 
 /*Menu y titulos*/
 
-
-/*Servicios*/
-.titulo-servicios{
-    color: white;
-}
-.servicios{
-    margin-left: 10%;
-    width: 80%;
-    align-items: center;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-areas:
-    "plano1 servicios1"
-    "plano servicios"
-}
-
-.servicios__plano{
-    width: 90%;
-    height: 100%;
-    grid-area: plano1;
-}
-.servicios__principal{
-    color: white;
-    grid-area: servicios1 ;
-}
-.servicios__lista{
-    width: 80%;
-    margin: 15px 15px 50px 0;
-    justify-self: end;
-    grid-area: plano;
-}
-.servicios__otros{
-    grid-area: servicios;
-    color: white;
-    margin-bottom: 50px;
-}
-
-.servicios .servicios__plano{
-    border:110%
-}
-
-/*Servicios*/
-
-.parrafo{
-    color: white;
-}
-
 /*Contacto*/
 .direccion__map{
     height: 550px;
