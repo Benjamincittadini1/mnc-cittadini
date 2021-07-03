@@ -223,13 +223,5 @@ body {
     position: absolute; } }
 
 @media (max-width: 599px) {
-  .servicios__plano {
-    display: none; } }
-
-@media (max-width: 599px) {
   .texto-index {
-    display: none; } }
-
-@media (max-width: 599px) {
-  .servicios__lista {
     display: none; } }
