@@ -186,7 +186,7 @@ body {
 /*Menu*/
 .menu {
   display: flex;
-  height: 100vh;
+  height: 20vh;
   justify-content: center;
   align-items: center;
   text-align: center;
