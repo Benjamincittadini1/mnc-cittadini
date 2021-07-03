@@ -6,10 +6,6 @@ body {
   margin: 0;
   padding: 0; }
 
-body {
-  background-image: url(https://www.publicdomainpictures.net/pictures/310000/velka/black-wall-1565177040wcN.jpg);
-  background-size: contain; }
-
 /*Menu y titulos*/
 .top-content {
   width: 100%;
@@ -191,7 +187,8 @@ body {
   height: 1vh;
   margin: 0;
   padding: 0;
-  background: #3b3646; }
+  background-image: url(https://www.publicdomainpictures.net/pictures/310000/velka/black-wall-1565177040wcN.jpg);
+  background-size: contain; }
 
 * {
   box-sizing: border-box; }
