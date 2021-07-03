@@ -3,40 +3,6 @@
     font-weight: 100;
 }
     
-/*Menu y titulos*/
-.top-content {
-    width: 100%;
-    padding: 0;
-}
-.top-content .carousel-control-prev {
-    border-bottom: 0;
-}
-.top-content .carousel-control-next {
-    border-bottom: 0;
-}
-.top-content .carousel-caption {
-    padding-bottom: 60px;
-}
-
-.texto-index{
-    height: 350px;
-    background-color:rgb(55, 54, 61);
-}
-.texto-index h2{
-    color: whitesmoke;
-    padding: 20px;
-    font-weight: 120;
-}
-.texto-index p{
-    color: whitesmoke;
-    padding: 0 20px 20px 40px;
-    font-size: large;
-    font-weight: 100;
-    word-spacing: 2px;
-    line-height: 150%;
-}
-
-/*Menu y titulos*/
 
 /*Contacto*/
 .direccion__map{
@@ -51,6 +17,7 @@
     text-justify: center;
 }
 /*Contacto*/
+
 
 
 /*Proyectos*/
@@ -100,9 +67,9 @@
     color: white;
     font-size: large;
 }
-
-
 /*Proyectos*/
+
+
 
 /*404*/
 .error-main{
@@ -113,16 +80,19 @@
     color: whitesmoke;
     font-weight: 100;
 }
+/*404*/
+
+
+
 /*footer*/
 .footer-dark {
-
-    padding:50px 0;
+    margin-top: 100px;
     color:#f0f9ff;
     background-color:#282d32;
   }
   
   .footer-dark h3 {
-    margin-top:0;
+    margin-top: 50px;
     margin-bottom:12px;
     font-weight:bold;
     font-size:16px;
@@ -204,6 +174,9 @@
     font-size:13px;
     margin-bottom:0;
     }
+    /*Footer*/
 
-    /*Menu*/
+
+
+
 
