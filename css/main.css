@@ -219,7 +219,7 @@ body {
       height: 100vh;
       animation: 11s slideshow-hero-mobile -3s infinite; }
     .slideshow--hero .slide1 {
-      background-image: url(../MEDIA/capilla2.jpg);
+      background-image: url(../MEDIA/Render10.png);
       animation: 20s slides-set-1 -0.1s infinite; }
     .slideshow--hero .slide2 {
       background-image: url(../MEDIA/Render7.png);
@@ -259,7 +259,7 @@ body {
     .slideshow--contrast .slides {
       animation: 14s slideshow-contrast -5s infinite; }
     .slideshow--contrast .slide1 {
-      background-image: linear-gradient(to bottom, rgba(34, 34, 33, 0.25) 0, rgba(112, 112, 112, 0.5) 100%), url(../MEDIA/capilla2.jpg);
+      background-image: linear-gradient(to bottom, rgba(34, 34, 33, 0.25) 0, rgba(112, 112, 112, 0.5) 100%), url(../MEDIA/Render10.png);
       animation: 20s slides-set-1 -0.2s infinite; }
     .slideshow--contrast .slide2 {
       background-image: linear-gradient(to bottom, rgba(34, 34, 33, 0.25) 0, rgba(112, 112, 112, 0.5) 100%), url(../MEDIA/Render7.png);
@@ -562,3 +562,41 @@ h1 {
 
 .intro p a {
   color: #FA8CD3; }
+
+.gallery {
+  display: flex;
+  padding: 2px;
+  transition: .3s; }
+  .gallery:hover .gallery__image {
+    filter: grayscale(1); }
+  .gallery__column {
+    display: flex;
+    flex-direction: column;
+    width: 25%; }
+  .gallery__link {
+    margin: 2px;
+    overflow: hidden; }
+    .gallery__link:hover .gallery__image {
+      filter: grayscale(0); }
+    .gallery__link:hover .gallery__caption {
+      opacity: 1; }
+  .gallery__thumb {
+    position: relative; }
+  .gallery__image {
+    display: block;
+    width: 100%;
+    transition: .3s; }
+    .gallery__image:hover {
+      transform: scale(1.1); }
+  .gallery__caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 25px 15px 15px;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: white;
+    opacity: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+    transition: .3s; }

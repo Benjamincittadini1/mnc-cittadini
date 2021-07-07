@@ -6,6 +6,7 @@ $mobile-width: 320px;
 $tablet-width: 768px;
 $desktop-width: 1024px;
 
+
 body{
     margin: 0;
     padding: 0;
@@ -110,7 +111,7 @@ body{
     }
 
     .slide1 {
-      background-image: url(../MEDIA/capilla2.jpg);
+      background-image: url(../MEDIA/Render10.png);
       animation: 20s slides-set-1 -0.1s infinite;
     }
     .slide2 {
@@ -170,7 +171,7 @@ body{
     }
 
     .slide1 {
-      background-image: linear-gradient(to bottom, rgba(34, 34, 33, 0.25) 0, rgba(112, 112, 112, 0.5) 100%), url(../MEDIA/capilla2.jpg);
+      background-image: linear-gradient(to bottom, rgba(34, 34, 33, 0.25) 0, rgba(112, 112, 112, 0.5) 100%), url(../MEDIA/Render10.png);
       // background-image: url(../img/slideshow/hero-1.jpg);
       animation: 20s slides-set-1 -0.2s infinite;
     }
@@ -531,3 +532,63 @@ body{
     color: #FA8CD3;
   }
 // Landing imgs
+
+
+.gallery {
+	display: flex;
+	padding: 2px;
+	transition: .3s;
+	
+	&:hover &__image {
+		filter: grayscale(1);
+	}
+	
+	&__column {
+		display: flex;
+		flex-direction: column;
+		width: 25%;
+	}
+	
+	&__link {
+		margin: 2px;
+		overflow: hidden;
+		
+		&:hover {
+			.gallery__image {
+				filter: grayscale(0);
+			}
+			
+			.gallery__caption {
+				opacity: 1;
+			}
+		}
+	}
+	
+	&__thumb {
+		position: relative;
+	}
+	
+	&__image {
+		display: block;
+		width: 100%;
+		transition: .3s;
+		
+		&:hover {
+			transform: scale(1.1);
+		}
+	}
+	
+	&__caption {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		padding: 25px 15px 15px;
+		width: 100%;
+		font-family: 'Raleway', sans-serif;
+		font-size: 16px;
+		color: white;
+		opacity: 0;
+		background: linear-gradient(0deg, rgba(0, 0, 0, .5) 0%, rgba(255, 255 ,255 , 0) 100%);
+		transition: .3s;
+	}
+}
