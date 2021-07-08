@@ -5,73 +5,13 @@
     
 
 /*Contacto*/
-
-
 .direccion__datos{
     color: rgb(245, 245, 245);  
     align-items: center;
     text-align: center;
     text-justify: center;
 }
-
-.titulo-contactos{
-  margin-left: auto;
-  color: rgba(255, 246, 246, 0.884);
-}
 /*Contacto*/
-
-
-
-/*Proyectos*/
-.titulo-proy{
-    color: whitesmoke;
-    text-align: center;
-}
-#carrousel1{
-    transition: .3s;
-}
-.container-proy #proy1:hover #carrousel1{
-    transform: scale(1.5);
-    z-index: 3;
-}
-#carrousel2{
-    transition: .3s;
-}
-.container-proy #proy2:hover #carrousel2{
-    transform: scale(1.5);
-    z-index: 3;
-}
-#carrousel3{
-    transition: .3s;
-}
-.container-proy #proy3:hover #carrousel3{
-    transform: scale(1.5);
-    z-index: 3;
-}
-#carrousel4{
-    transition: .3s;
-}
-.container-proy #proy4:hover #carrousel4{
-    transform: scale(1.5);
-    z-index: 3;
-}
-#proy4{
-    margin-bottom: 50px;
-}
-.carrousel-contenedor{
-    height: 100%;
-}
-#tit-proy div{
-    color: white;
-    font-size: large;
-}
-#tit-proy2 div{
-    color: white;
-    font-size: large;
-}
-/*Proyectos*/
-
-
 
 /*404*/
 .error-main{
@@ -176,8 +116,6 @@
     margin-bottom:0;
     }
     /*Footer*/
-
-
 
 
 
