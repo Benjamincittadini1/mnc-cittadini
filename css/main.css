@@ -4,15 +4,15 @@
   font-weight: 100; }
 
 /*Contacto*/
-.direccion__map {
-  height: 550px;
-  width: 100vw; }
-
 .direccion__datos {
   color: whitesmoke;
   align-items: center;
   text-align: center;
   text-justify: center; }
+
+.titulo-contactos {
+  margin-left: auto;
+  color: rgba(255, 246, 246, 0.884); }
 
 /*Contacto*/
 /*Proyectos*/
