@@ -291,6 +291,10 @@ h2 {
 
 @media (max-width: 767px) {
   .map-responsive {
+    display: none; }
+  .row1-container {
+    display: none; }
+  .row2-container {
     display: none; } }
 
 .form {
